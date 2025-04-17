@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Stego + Crypto Toolkit</title>
+  <style>
+    body { font-family: sans-serif; padding: 1rem; max-width: 800px; margin: auto; }
+    section { border: 1px solid #ddd; padding: 1rem; margin-bottom: 1rem; border-radius: 4px; }
+    input, textarea, select, button { display: block; width: 100%; margin: .5rem 0; }
+  </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+  <h1>Stego + Crypto Toolkit</h1>
 
+  <!-- STEGO, SYMM, HASH, RSA sections will go here -->
+
+  <!-- CDN scripts -->
+  <script src="https://unpkg.com/steganography.js@1.1.0/dist/steganography.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="https://unpkg.com/openpgp@5.7.0/dist/openpgp.min.js"></script>
+  <script>
+    // later: your JS to wire up encode/decode/encrypt/decrypt…
+  </script>
+</body>
 </html>
